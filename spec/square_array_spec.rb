@@ -1,6 +1,6 @@
-numbers = [1,2,3]
- 
-square_array(numbers)
-# => [1,4,9])
- 
-new_numbers = [9,10,16,25]
+def square_array(array)
+ array.each do |integer|
+  new_array = [integer ** 2]
+  return new_array
+ end
+end
